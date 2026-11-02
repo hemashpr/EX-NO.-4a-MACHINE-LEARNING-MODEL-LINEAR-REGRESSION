@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820">
+<rect width="1440" height="820" fill="#ffffff"/>
+<text x="720" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#172033">House Price Prediction</text>
+<text x="720" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#526078">Regression model performance on the held-out test set</text>
+<text x="360" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172033">RMSE (lower is better)</text>
+<text x="1080" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172033">R² (higher is better)</text>
+<line x1="690" y1="155" x2="690" y2="755" stroke="#d9dee8" stroke-width="2"/>
+<text x="22" y="199" font-family="Arial,sans-serif" font-size="15" fill="#263247">Polynomial Regression</text>
+<rect x="225" y="180" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="180" width="171.8" height="27" rx="5" fill="#3978b9"/>
+<text x="406.8" y="199" font-family="Arial,sans-serif" font-size="14" fill="#172033">178,660</text>
+<rect x="880" y="180" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="180" width="231.5" height="27" rx="5" fill="#299a76"/>
+<text x="1121.5" y="199" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.7870</text>
+<text x="22" y="254" font-family="Arial,sans-serif" font-size="15" fill="#263247">SVR</text>
+<rect x="225" y="235" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="235" width="172.1" height="27" rx="5" fill="#3978b9"/>
+<text x="407.1" y="254" font-family="Arial,sans-serif" font-size="14" fill="#172033">178,993</text>
+<rect x="880" y="235" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="235" width="231.2" height="27" rx="5" fill="#299a76"/>
+<text x="1121.2" y="254" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.7862</text>
+<text x="22" y="309" font-family="Arial,sans-serif" font-size="15" fill="#263247">ElasticNet</text>
+<rect x="225" y="290" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="290" width="174.3" height="27" rx="5" fill="#3978b9"/>
+<text x="409.3" y="309" font-family="Arial,sans-serif" font-size="14" fill="#172033">181,272</text>
+<rect x="880" y="290" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="290" width="229.6" height="27" rx="5" fill="#299a76"/>
+<text x="1119.6" y="309" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.7807</text>
+<text x="22" y="364" font-family="Arial,sans-serif" font-size="15" fill="#263247">KNN</text>
+<rect x="225" y="345" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="345" width="174.3" height="27" rx="5" fill="#3978b9"/>
+<text x="409.3" y="364" font-family="Arial,sans-serif" font-size="14" fill="#172033">181,307</text>
+<rect x="880" y="345" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="345" width="229.6" height="27" rx="5" fill="#299a76"/>
+<text x="1119.6" y="364" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.7806</text>
+<text x="22" y="419" font-family="Arial,sans-serif" font-size="15" fill="#263247">Ridge</text>
+<rect x="225" y="400" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="400" width="175.5" height="27" rx="5" fill="#3978b9"/>
+<text x="410.5" y="419" font-family="Arial,sans-serif" font-size="14" fill="#172033">182,525</text>
+<rect x="880" y="400" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="400" width="228.7" height="27" rx="5" fill="#299a76"/>
+<text x="1118.7" y="419" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.7777</text>
+<text x="22" y="474" font-family="Arial,sans-serif" font-size="15" fill="#263247">Lasso</text>
+<rect x="225" y="455" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="455" width="175.6" height="27" rx="5" fill="#3978b9"/>
+<text x="410.6" y="474" font-family="Arial,sans-serif" font-size="14" fill="#172033">182,572</text>
+<rect x="880" y="455" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="455" width="228.7" height="27" rx="5" fill="#299a76"/>
+<text x="1118.7" y="474" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.7776</text>
+<text x="22" y="529" font-family="Arial,sans-serif" font-size="15" fill="#263247">Linear Regression</text>
+<rect x="225" y="510" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="510" width="175.6" height="27" rx="5" fill="#3978b9"/>
+<text x="410.6" y="529" font-family="Arial,sans-serif" font-size="14" fill="#172033">182,643</text>
+<rect x="880" y="510" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="510" width="228.6" height="27" rx="5" fill="#299a76"/>
+<text x="1118.6" y="529" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.7774</text>
+<text x="22" y="584" font-family="Arial,sans-serif" font-size="15" fill="#263247">Random Forest</text>
+<rect x="225" y="565" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="565" width="184.2" height="27" rx="5" fill="#3978b9"/>
+<text x="419.2" y="584" font-family="Arial,sans-serif" font-size="14" fill="#172033">191,556</text>
+<rect x="880" y="565" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="565" width="222.1" height="27" rx="5" fill="#299a76"/>
+<text x="1112.1" y="584" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.7551</text>
+<text x="22" y="639" font-family="Arial,sans-serif" font-size="15" fill="#263247">Gradient Boosting</text>
+<rect x="225" y="620" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="620" width="186.2" height="27" rx="5" fill="#3978b9"/>
+<text x="421.2" y="639" font-family="Arial,sans-serif" font-size="14" fill="#172033">193,689</text>
+<rect x="880" y="620" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="620" width="220.5" height="27" rx="5" fill="#299a76"/>
+<text x="1110.5" y="639" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.7497</text>
+<text x="22" y="694" font-family="Arial,sans-serif" font-size="15" fill="#263247">Decision Tree</text>
+<rect x="225" y="675" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="225" y="675" width="235.2" height="27" rx="5" fill="#3978b9"/>
+<text x="470.2" y="694" font-family="Arial,sans-serif" font-size="14" fill="#172033">244,563</text>
+<rect x="880" y="675" width="250" height="27" rx="5" fill="#edf1f6"/>
+<rect x="880" y="675" width="176.7" height="27" rx="5" fill="#299a76"/>
+<text x="1066.7" y="694" font-family="Arial,sans-serif" font-size="14" fill="#172033">0.6009</text>
+<text x="720" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Synthetic dataset • 400 initial rows • 80/20 train-test split after percentile filtering</text>
+</svg>
