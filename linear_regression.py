@@ -43,8 +43,8 @@ df = pd.DataFrame({
 
 print("FIRST FIVE RECORDS")
 print(df.head().to_string(index=False))
-print("\\nDATASET SHAPE:", df.shape)
-print("\\nMISSING VALUES")
+print("\nDATASET SHAPE:", df.shape)
+print("\nMISSING VALUES")
 print(df.isnull().sum().to_string())
 
 # 2. Remove extreme target values using the 1st and 99th percentiles.
@@ -71,7 +71,7 @@ scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-print("\\nTRAINING SET:", X_train.shape)
+print("\nTRAINING SET:", X_train.shape)
 print("TESTING SET :", X_test.shape)
 
 # 4. Define and train the regression models.
@@ -119,7 +119,7 @@ for name, y_pred in predictions.items():
 
 results = pd.DataFrame(rows).sort_values("RMSE").reset_index(drop=True)
 
-print("\\nMODEL PERFORMANCE")
+print("\nMODEL PERFORMANCE")
 print(results.to_string(
     index=False,
     formatters={
@@ -130,7 +130,7 @@ print(results.to_string(
 ))
 
 best_model = results.iloc[0]["Model"]
-print("\\nBEST MODEL BY RMSE:", best_model)
+print("\nBEST MODEL BY RMSE:", best_model)
 
 # 6. Generate model-comparison graphs.
 fig, axes = plt.subplots(1, 2, figsize=(16, 7))
@@ -170,7 +170,7 @@ fig.savefig("actual_vs_predicted.png", dpi=180, bbox_inches="tight")
 fig.savefig("actual_vs_predicted.svg", bbox_inches="tight")
 plt.close(fig)
 
-print("\\nOUTPUT IMAGES SAVED:")
+print("\nOUTPUT IMAGES SAVED:")
 print("model_comparison.png")
 print("actual_vs_predicted.png")
-print("\\nRESULT: Regression models trained and evaluated successfully.")
+print("\nRESULT: Regression models trained and evaluated successfully.")
