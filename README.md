@@ -18,7 +18,7 @@ o	price
 o	square_feet – size of the house. 
 o	num_rooms – number of rooms. 
 o	age – age of the house in years. 
-o	distance_to_city(km) – distance from the city centre. 
+o	distance_to_city(km) – distance from the city centre.  
 •	Target (y): 
 o	price – continuous house price. 
 ## PROBLEM STATEMENT
