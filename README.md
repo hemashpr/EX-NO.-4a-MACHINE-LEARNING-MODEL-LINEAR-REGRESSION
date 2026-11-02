@@ -40,17 +40,20 @@ Build regression models that estimate house prices from the four property featur
 11. Sort the results by RMSE and identify the best-performing model.
 12. Generate and save the model-comparison and actual-versus-predicted graphs.
 
-## Regression Models
-1. Linear Regression
-2. Ridge Regression
-3. Lasso Regression
-4. ElasticNet Regression
-5. Polynomial Regression (degree 2)
-6. Decision Tree Regressor
-7. Random Forest Regressor
-8. Gradient Boosting Regressor
-9. Support Vector Regressor (RBF kernel)
-10. K-Nearest Neighbors Regressor
+## Regression Models Used
+
+The experiment trains and compares these **10 regression models**:
+
+1. **Linear Regression** - baseline linear relationship between house features and price.
+2. **Ridge Regression** - linear regression with L2 regularization.
+3. **Lasso Regression** - linear regression with L1 regularization.
+4. **ElasticNet Regression** - combines L1 and L2 regularization.
+5. **Polynomial Regression (Degree 2)** - models nonlinear feature relationships using polynomial terms.
+6. **Decision Tree Regressor** - predicts using feature-based decision rules.
+7. **Random Forest Regressor** - combines predictions from multiple decision trees.
+8. **Gradient Boosting Regressor** - builds sequential trees to reduce prediction errors.
+9. **Support Vector Regressor (SVR)** - uses an RBF kernel to model nonlinear relationships.
+10. **K-Nearest Neighbors (KNN) Regressor** - predicts from nearby training observations.
 
 ## Program
 
